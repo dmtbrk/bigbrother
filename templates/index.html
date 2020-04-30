@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>You're counted!</title>
+	<link rel="stylesheet" type="text/css" href="/static/styles/main.css">
+</head>
+<body>
+	<nav>
+		<a href="/">Home</a>
+		<a href="/page1">Page 1</a>
+		<a href="/page2">Page 2</a>
+	</nav>
+	<h1>{{.Title}}</h1>
+	<h2>You're counted!</h2>
+	<p>You visited this page <strong>{{.PageUserVisits}}</strong> times already. Big brother is watching you.</p>
+	<p>Total page visits: <strong>{{.PageTotalVisits}}</strong></p>
+	<p>Total website visits: <strong>{{.TotalVisits}}</strong></p>
+	<img src="/static/images/1984-Big-Brother.jpg">
+</body>
+</html>
